@@ -1,4 +1,4 @@
-﻿namespace WFGit
+namespace WFGit
 {
     partial class Form1
     {
@@ -30,6 +30,7 @@
         {
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnSegundo = new System.Windows.Forms.Button();
+            this.lblPepito = new System.Windows.Forms.Label();
             this.lblJuanito = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -51,13 +52,22 @@
             this.btnSegundo.Text = "SEGUNDO";
             this.btnSegundo.UseVisualStyleBackColor = true;
             // 
+            // lblPepito
+            // 
+            this.lblPepito.AutoSize = true;
+            this.lblPepito.Location = new System.Drawing.Point(629, 60);
+            this.lblPepito.Name = "lblPepito";
+            this.lblPepito.Size = new System.Drawing.Size(107, 25);
+            this.lblPepito.TabIndex = 2;
+            this.lblPepito.Text = "Soy Pepito";
+            // 
             // lblJuanito
             // 
             this.lblJuanito.AutoSize = true;
             this.lblJuanito.Location = new System.Drawing.Point(105, 603);
             this.lblJuanito.Name = "lblJuanito";
             this.lblJuanito.Size = new System.Drawing.Size(116, 25);
-            this.lblJuanito.TabIndex = 2;
+            this.lblJuanito.TabIndex = 3;
             this.lblJuanito.Text = "Soy Juanito";
             // 
             // Form1
@@ -65,6 +75,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1205, 722);
+            this.Controls.Add(this.lblPepito);
             this.Controls.Add(this.lblJuanito);
             this.Controls.Add(this.btnSegundo);
             this.Controls.Add(this.btnAceptar);
@@ -79,6 +90,7 @@
 
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnSegundo;
+        private System.Windows.Forms.Label lblPepito;
         private System.Windows.Forms.Label lblJuanito;
     }
 }
